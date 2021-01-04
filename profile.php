@@ -25,8 +25,12 @@ if(!$conn){
 <html>
 <head>
    <title>Profile</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
+   <?php include_once 'header.php' ; ?>
+
    <table>
       <tr>
          <td colspan="2">Profile</td>

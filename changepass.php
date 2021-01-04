@@ -46,9 +46,13 @@
    
    <head>
       <title>Login</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      
    </head>
    
    <body>  
+      <?php include_once 'header.php' ; ?>
+
       <form action = "<?php echo $_SERVER["PHP_SELF"]; ?>" method = "post">
          <table>
             <tr>
